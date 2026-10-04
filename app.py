@@ -86,11 +86,8 @@ def load_all_models():
 models_dict = load_all_models()
 
 # ---------- Header ----------
-st.title("🏢 IBM HR Analytics — Job Satisfaction AI")
-st.markdown(
-    "**ระบบปัญญาประดิษฐ์จำแนกระดับความพึงพอใจในการทำงานของพนักงาน**  \n"
-    "*306-23-06 ปัญญาประดิษฐ์เพื่อธุรกิจดิจิทัล · มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ*"
-)
+st.title("🏢 IBM HR Analytics")
+
 
 # ---------- Model Selector ----------
 available_model_names = list(models_dict.keys())
@@ -207,7 +204,6 @@ st.markdown(
     "น.ส.กมลวรรณ จันทร์ผึ้ง รหัสนักศึกษา 001<br>"
     "น.ส.ชลดา อิศรเสนา ณ อยุธยา รหัสนักศึกษา 009<br>"
     "น.ส.ณัฐพร เผือกผ่อง รหัสนักศึกษา 016<br>"
-    "<i>สาขาคอมพิวเตอร์ธุรกิจ / ปัญญาประดิษฐ์เพื่อธุรกิจดิจิทัล มทร.สุวรรณภูมิ</i>"
     "</div>",
     unsafe_allow_html=True
 )
