@@ -96,7 +96,7 @@ if not available_model_names:
     st.stop()
 
 selected_model_name = st.selectbox(
-    "🤖 เลือกโมเดล AI ที่ต้องการใช้งานในการทำนาย:",
+    " เลือกโมเดล AI ที่ต้องการใช้งานในการทำนาย:",
     options=available_model_names,
     index=0
 )
